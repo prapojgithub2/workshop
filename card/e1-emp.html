@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="th"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>พนักงาน — เหตุการณ์ 1</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0f172a;color:#e2e8f0;font-family:sans-serif;padding:24px;font-size:16px;line-height:1.75;max-width:540px;margin:0 auto}
+header{display:flex;align-items:center;gap:14px;margin-bottom:24px;padding-bottom:20px;border-bottom:1px solid #1e293b}
+.ico{font-size:40px;flex-shrink:0}
+.ev{font-size:11px;color:#64748b;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+.ti{font-size:22px;font-weight:800;color:#f8fafc}
+.badge{display:inline-block;padding:5px 16px;border-radius:20px;font-size:13px;font-weight:700;margin-top:8px;background:#2563eb;color:#fff}
+.box{background:#1e293b;border-radius:12px;padding:20px;margin-bottom:16px}
+.lbl{font-size:10px;color:#64748b;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.txt{color:#cbd5e1}
+.mbox{background:#1e293b;border-radius:12px;padding:20px;border-left:4px solid #f59e0b}
+.mlbl{font-size:10px;color:#f59e0b;letter-spacing:1px;text-transform:uppercase;font-weight:700;margin-bottom:10px}
+.mtxt{color:#fef3c7}
+.back{display:block;text-align:center;margin-top:24px;color:#475569;font-size:13px;text-decoration:none}
+.back:hover{color:#94a3b8}
+</style></head><body>
+<header>
+  <div class="ico">🖥️</div>
+  <div>
+    <div class="ev">เหตุการณ์ที่ 1</div>
+    <div class="ti">Server Crash</div>
+    <div class="badge">พนักงาน</div>
+  </div>
+</header>
+<div class="box">
+  <div class="lbl">📋 สถานการณ์</div>
+  <div class="txt">ระบบล่มทั้งบริษัทหลัง Deploy วันศุกร์เย็น คุณเช็ก Log แล้วพบว่าสาเหตุมาจากโค้ดชุดที่คุณเขียนทิ้งไว้ใน Feature Branch ที่ยังทำไม่เสร็จ แต่มีคนดึงโค้ดชุดนั้นไป Merge เข้า Main แล้ว Deploy โดยไม่บอกคุณ และคนที่กด Merge คือหัวหน้าของคุณเอง</div>
+</div>
+<div class="mbox">
+  <div class="mlbl">🎯 โจทย์ของคุณ</div>
+  <div class="mtxt">เดินไปแจ้งหัวหน้าว่าระบบล่มเพราะโค้ดของคุณ และต้องเคลียร์เรื่องที่หัวหน้าดึงโค้ดไปโดยไม่บอก — บนข้อเท็จจริง ห้ามเหน็บแนม ห้ามปัดความรับผิดชอบ</div>
+</div>
+<a class="back" href="../index.html">← กลับหน้าหลัก</a>
+</body></html>
